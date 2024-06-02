@@ -1,0 +1,22 @@
+.btn {
+  @apply p-2 rounded-[5px] duration-200 shadow-[0px_0px_1px_1px] shadow-gray-600 min-w-[80px];
+
+  &.btn-icon {
+    @apply flex items-center space-x-2 justify-center;
+  }
+  &.btn-white {
+    @apply bg-white text-[#2148c0] lg:hover:bg-blue-900 lg:hover:text-gray-100 uppercase;
+  }
+
+  &.btn-blue {
+    @apply bg-indigo-600 text-gray-50 lg:hover:bg-indigo-800;
+  }
+
+  &.btn-green {
+    @apply bg-emerald-600 text-gray-50 lg:hover:bg-emerald-800;
+  }
+
+  &.btn-red {
+    @apply bg-red-600 text-gray-50 lg:hover:bg-red-800;
+  }
+}

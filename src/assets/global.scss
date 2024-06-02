@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './components/button';
+@import './components/spinner';
+@import './components/scrollbar';
+@import './components/input';
+@import './components/box';
+@import './components/paginate';
+
+@layer base {
+}
+
+body {
+  font-size: 14px;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.body-overflow-hidden {
+  overflow: hidden;
+}
